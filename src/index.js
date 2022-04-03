@@ -79,6 +79,8 @@ class Game extends React.Component {
 
 // ========================================
 
+// removed ReactDOM.render function and implemented createRoot to switch to the new DOM API.
+
 const container = document.getElementById("root");
 
 const root = ReactDOM.createRoot(container);
